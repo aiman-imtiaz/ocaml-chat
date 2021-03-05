@@ -1,0 +1,4 @@
+(executable
+  (name client)
+  (preprocess (pps ppx_let ppx_here))
+  (libraries async core base))
